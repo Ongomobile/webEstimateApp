@@ -215,9 +215,9 @@ header {
     grid-gap: 5px;
   }
 
-  .window-card-type {
+  /* .window-card-type {
     min-width: 320px;
-  }
+  } */
 
   .card-title {
     font-size: 15px;
