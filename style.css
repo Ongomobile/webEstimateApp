@@ -211,7 +211,6 @@ header {
 @media (max-width: 620px) {
   
   .main-nav a {
-    font-size: 0.5rem;
     padding: 0.9rem;
   }
 
@@ -231,8 +230,8 @@ header {
   }
   .main-nav li {
     width: 98%;
-    margin-right: 5px;
-    margin-left: 10px;
+    /* margin-right: 5px;
+    margin-left: 5px; */
   }
 
   .qty-btn {
