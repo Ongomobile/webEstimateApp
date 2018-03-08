@@ -210,4 +210,7 @@ header {
   .main-nav a {
     font-size: 0.5rem;
   }
+  .wrapper {
+    grid-gap: 5px;
+  }
 }
