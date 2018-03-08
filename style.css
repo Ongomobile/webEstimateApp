@@ -1,31 +1,43 @@
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-  margin: 5px;
+  margin: 0px;
+  padding: 0;
   line-height: 1.4;
   /* background:rgb(38, 47, 51); */
   
 }
 
 .wrapper {
-  display: grid;
-  grid-gap: 20px;
-}
+  /* display: grid;
+  grid-gap: 20px; */
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+} 
 
 /* Navigation */
-.main-nav ul {
-  display: grid;
-  grid-gap: 20px;
-  padding: 0;
-  list-style: none;
-  /* shorthand */
-  grid-template-columns:  repeat(4, 1fr)
-}
 
+.main-nav ul {
+  display: flex;
+  align-items: flex-end;
+  list-style: none;
+  padding: 0;
+  /* display: grid;
+  grid-gap: 20px;
+  padding: 0; */
+  
+  /* shorthand */
+  /* grid-template-columns:  repeat(4, 1fr) */
+}
+.main-nav li {
+  width: 25%;
+  margin:10px;
+}
 .main-nav a {
   background: rgb(83, 124, 161);
   display: block;
@@ -222,9 +234,9 @@ header {
     grid-gap: 5px;
   }
 
-  .window-card-type {
+  /* .window-card-type {
     min-width: 340px;
-  }
+  } */
 
   .qty-btn {
     margin-right: 10px;
