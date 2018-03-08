@@ -207,9 +207,7 @@ header {
 }
 
 @media (max-width: 620px) {
-  body {
-    line-height: 1.0;
-  }
+  
   .main-nav a {
     font-size: 0.5rem;
   }
