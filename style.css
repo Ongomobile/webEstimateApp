@@ -69,11 +69,11 @@ header {
   color: rgb(83, 124, 161);
 }
 .estimate-form {
-  /* display: -webkit-box;
+  display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; */
-  display: grid;
-  grid-gap: 10px;
+  display: flex;
+  /* display: grid;
+  grid-gap: 10px; */
 }
 
 .grand-total {
@@ -157,8 +157,6 @@ header {
   text-align: center;
   margin: 10px;
   color: rgb(83, 124, 161);
-  /* color: rgb(139, 87, 42); */
-  /* color: white; */
   font-size: 20px;
 }
 .qty-input {
@@ -195,29 +193,22 @@ header {
   text-align: center;
   font-size: 15px;
   color: rgb(83, 124, 161);
-  /* color: rgb(139, 87, 42); */
-  /* color: white; */
 }
 
 .js-subtotal-display {
   font-size: 15px;
   color: rgb(83, 124, 161);
-  /* color: rgb(139, 87, 42); */
-  /* color: white; */
 }
 
 @media (max-width: 620px) {
   
   .main-nav a {
     font-size: 0.5rem;
+    padding: 0.9rem;
   }
   .wrapper {
     grid-gap: 5px;
   }
-
-  /* .window-card-type {
-    min-width: 320px;
-  } */
 
   .card-title {
     font-size: 15px;
@@ -234,7 +225,10 @@ header {
     grid-gap: 5px;
   }
 
+  .main-nav a {
+    padding: 0.9rem;
+  }
   .window-card-type {
-    min-width: 320px;
+    min-width: 340px;
   }
 }
