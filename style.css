@@ -1,0 +1,185 @@
+body {
+  font-family: Cambria, serif;
+  margin: 0;
+  padding: 0;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./images/raindropsLG.jpg");
+  /* background-image: url("./images/rain-drops.jpg"); */
+  /* background-color: rgba(0, 0, 0, 1.8); */
+  /* background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; */
+
+  /* box-sizing: border-box; */
+}
+
+.container {
+  /* max-width: 1400px;
+  margin: 0 auto; */
+}
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 3%;
+}
+.slogan {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.app-title {
+  margin-left: 10px;
+  text-align: center;
+  color: rgb(83, 124, 161);
+}
+.estimate-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grand-total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  color: rgb(83, 124, 161);
+  /* color: rgb(139, 87, 42); */
+  /* color: white; */
+  width: 270px;
+  font-size: 2em;
+  border: solid 1px #eee;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 2px 2px #ccc;
+  box-shadow: 0 2px 2px #ccc;
+}
+
+.reset-button button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px auto;
+  padding: 20px;
+  color: rgb(83, 124, 161);
+  /* color: rgb(139, 87, 42); */
+  width: 110px;
+  font-size: 1em;
+  border: solid 1px #eee;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 2px 2px #ccc;
+  box-shadow: 0 2px 2px #ccc;
+  outline: none;
+}
+
+.online-estimate-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.window-card-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border: solid 1px #eee;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 2px #ccc;
+  box-shadow: 0 2px 2px #ccc;
+  width: 313px;
+}
+.card-image {
+  margin: 10px;
+  background-color: green;
+  width: 125px;
+  height: 125px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 3px 3px #ccc;
+  box-shadow: 0 3px 3px #ccc;
+}
+.controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.card-title {
+  text-align: center;
+  margin: 10px;
+  color: rgb(83, 124, 161);
+  /* color: rgb(139, 87, 42); */
+  /* color: white; */
+  font-size: 20px;
+}
+.qty-input {
+  width: 40px;
+  height: 30px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.qty-btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: rgb(83, 124, 161);
+  border-radius: 25px;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  color: azure;
+  height: 35px;
+  width: 35px;
+  margin-right: 15px;
+}
+
+.js-tally-quantity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.subtotal {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(83, 124, 161);
+  /* color: rgb(139, 87, 42); */
+  /* color: white; */
+}
+
+.js-subtotal-display {
+  font-size: 15px;
+  color: rgb(83, 124, 161);
+  /* color: rgb(139, 87, 42); */
+  /* color: white; */
+}
+
+/* @media screen and (max-width: 768px) {
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("./images/raindropsLG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600vh;
+  }
+} */
