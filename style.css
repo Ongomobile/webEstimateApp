@@ -23,9 +23,7 @@ body {
 /* Navigation */
 
 .main-nav ul {
-  background: red;
   display: flex;
-  align-items: flex-end;
   list-style: none;
   padding: 0;
   /* display: grid;
@@ -36,8 +34,8 @@ body {
   /* grid-template-columns:  repeat(4, 1fr) */
 }
 .main-nav li {
-  width: 40%;
-  margin:10px;
+  width: 33.3%;
+  margin:5px;
 }
 .main-nav a {
   background: rgb(83, 124, 161);
@@ -216,9 +214,6 @@ header {
     font-size: 0.5rem;
     padding: 0.9rem;
   }
-  .wrapper {
-    grid-gap: 5px;
-  }
 
   .card-title {
     font-size: 15px;
@@ -230,14 +225,15 @@ header {
   }
 }
 
-@media (max-width: 420px) {
-  .wrapper {
-    grid-gap: 5px;
+@media (max-width: 440px) {
+  .main-nav ul {
+    display: block;
   }
-
-  /* .window-card-type {
-    min-width: 340px;
-  } */
+  .main-nav li {
+    width: 98%;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
 
   .qty-btn {
     margin-right: 10px;
