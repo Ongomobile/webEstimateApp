@@ -207,10 +207,21 @@ header {
 }
 
 @media (max-width: 620px) {
+  body {
+    line-height: 1.0;
+  }
   .main-nav a {
     font-size: 0.5rem;
   }
   .wrapper {
     grid-gap: 5px;
+  }
+
+  .window-card-type {
+    min-width: 300px;
+  }
+
+  .card-title {
+    font-size: 15px;
   }
 }
