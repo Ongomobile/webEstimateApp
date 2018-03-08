@@ -228,3 +228,9 @@ header {
     font-size: 12px;
   }
 }
+
+@media (max-width: 420px) {
+  .window-card-type {
+    min-width: 320px;
+  }
+}
