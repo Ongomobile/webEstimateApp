@@ -222,4 +222,9 @@ header {
   .card-title {
     font-size: 15px;
   }
+
+  .qty-input {
+    width: 20px;
+    font-size: 12px;
+  }
 }
