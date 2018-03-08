@@ -225,10 +225,11 @@ header {
     grid-gap: 5px;
   }
 
-  .main-nav a {
-    padding: 0.9rem;
-  }
   .window-card-type {
     min-width: 340px;
+  }
+
+  .qty-btn {
+    margin-right: 10px;
   }
 }
