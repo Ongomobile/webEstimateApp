@@ -223,6 +223,9 @@ header {
     margin-bottom: 10px;
   }
 
+  .main-nav a {
+    font-weight: bold;
+  }
   .qty-btn {
     margin-right: 10px;
   }
