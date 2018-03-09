@@ -36,7 +36,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: ghostwhite;
-  font-size: 0.8rem;
+  /* font-size: 0.8rem; */
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 2px #ccc;
   box-shadow: 0 2px 2px #ccc;
@@ -197,7 +197,7 @@ header {
   color: rgb(83, 124, 161);
 }
 
-@media (max-width: 620px) {
+/* @media (max-width: 620px) {
   
   .main-nav a {
     padding: 0.9rem;
@@ -211,9 +211,9 @@ header {
     width: 20px;
     font-size: 12px;
   }
-}
+} */
 
-@media (max-width: 440px) {
+@media (max-width: 687px) {
   .main-nav ul {
     display: block;
   }
