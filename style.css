@@ -234,6 +234,9 @@ header {
   .qty-btn {
     margin-right: 10px;
   }
+  .qty-input {
+    width: 30px;
+  }
 }
 
 @media (max-width: 440px) {
