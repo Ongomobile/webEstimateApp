@@ -8,15 +8,12 @@ body {
   margin: 0px;
   padding: 0;
   line-height: 1.4;
-  /* background:rgb(38, 47, 51); */
+  background:rgb(38, 47, 51);
   
 }
 
 .wrapper {
-  /* display: grid;
-  grid-gap: 20px; */
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
 } 
 
@@ -26,12 +23,6 @@ body {
   display: flex;
   list-style: none;
   padding: 0;
-  /* display: grid;
-  grid-gap: 20px;
-  padding: 0; */
-  
-  /* shorthand */
-  /* grid-template-columns:  repeat(4, 1fr) */
 }
 .main-nav li {
   width: 33.3%;
@@ -83,8 +74,6 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* display: grid;
-  grid-gap: 10px; */
 }
 
 .grand-total {
@@ -228,10 +217,10 @@ header {
   .main-nav ul {
     display: block;
   }
+
   .main-nav li {
     width: 98%;
-    /* margin-right: 5px;
-    margin-left: 5px; */
+    margin-bottom: 10px;
   }
 
   .qty-btn {
