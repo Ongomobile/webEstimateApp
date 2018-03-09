@@ -79,6 +79,7 @@ header {
 }
 
 .grand-total {
+  background: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -240,7 +241,7 @@ header {
     display: block;
   }
   .window-card-type {
-    width:90%;
-    margin-left: 18px;
+    width:97%;
+    /* margin-left: 18px; */
   }
 }
