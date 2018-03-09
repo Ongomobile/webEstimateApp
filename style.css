@@ -213,7 +213,7 @@ header {
   }
 } */
 
-@media (max-width: 687px) {
+@media (max-width: 685px) {
   .main-nav ul {
     display: block;
   }
@@ -228,5 +228,11 @@ header {
   }
   .qty-btn {
     margin-right: 10px;
+  }
+}
+
+@media (max-width: 440px) {
+  .online-estimate-container {
+    display: block;
   }
 }
